@@ -1,0 +1,10 @@
+{ 
+
+"id": "uni-001", "nome": "Universidade Central", 
+"cidade": "São Paulo", 
+"pais": "Brasil", 
+"ano_fundacao": 1965, 
+"numero_de_alunos": 12000, 
+"cursos_principais": ["Engenharia", "Direito", "Medicina"] 
+
+}
