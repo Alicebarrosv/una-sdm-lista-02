@@ -1,0 +1,9 @@
+{
+  "id": "shop-001",
+  "nome": "Shopping Central",
+  "cidade": "Belo Horizonte",
+  "pais": "Brasil",
+  "ano_inauguracao": 2005,
+  "numero_de_lojas": 250,
+  "principais_atracoes": ["Cinema", "Praça de Alimentação", "Parque Infantil"]
+}
