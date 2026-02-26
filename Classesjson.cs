@@ -1,3 +1,4 @@
+using System.Text.Json.Serialization;
 public class Livros
 {
     [JsonPropertyName("id")]
@@ -20,7 +21,7 @@ public class Livros
 
 }
 
-public class veiculos
+public class Veiculos
 {
      [JsonPropertyName("id")]
     public string Id{get; set; }
@@ -40,7 +41,7 @@ public class veiculos
 
 }
 
-public class ferramentas
+public class Ferramentas
 {
      [JsonPropertyName("id")]
     public string Id{get; set; }
@@ -60,3 +61,52 @@ public class ferramentas
 
 }
 
+
+public class Universidade
+{
+    [JsonPropertyName("id")]
+    public string Id { get; set; }
+
+    [JsonPropertyName("nome")]
+    public string Nome { get; set; }
+
+    [JsonPropertyName("cidade")]
+    public string Cidade { get; set; }
+
+    [JsonPropertyName("pais")]
+    public string Pais { get; set; }
+
+    [JsonPropertyName("ano_fundacao")]
+    public int AnoFundacao { get; set; }
+
+    [JsonPropertyName("numero_de_alunos")]
+    public int NumeroDeAlunos { get; set; }
+
+    [JsonPropertyName("cursos_principais")]
+    public List<string> CursosPrincipais { get; set; }
+}
+
+
+public class Shopping
+{
+    [JsonPropertyName("id")]
+    public string Id { get; set; }
+
+    [JsonPropertyName("nome")]
+    public string Nome { get; set; }
+
+    [JsonPropertyName("cidade")]
+    public string Cidade { get; set; }
+
+    [JsonPropertyName("pais")]
+    public string Pais { get; set; }
+
+    [JsonPropertyName("ano_inauguracao")]
+    public int AnoInauguracao { get; set; }
+
+    [JsonPropertyName("numero_de_lojas")]
+    public int NumeroDeLojas { get; set; }
+
+    [JsonPropertyName("principais_atracoes")]
+    public List<string> PrincipaisAtracoes { get; set; }
+}
